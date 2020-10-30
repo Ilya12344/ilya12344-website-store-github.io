@@ -1,0 +1,467 @@
+body{
+  	background: #ffde41;
+  	font-family: 'Balsamiq Sans', cursive;
+}
+
+.login_margin{
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.div_color{
+	background-color: #c8a600;
+	height: 52px;
+	margin: 0px;
+	border-radius: 50px;
+	padding: 5px;
+}
+
+.link_margin{
+	margin-top: 4px;
+}
+
+.link_color{
+	color: #fff;
+}
+
+.stars_margin{
+	position: relative;
+	right: 35px;
+}
+
+.stars_button_margin{
+	position: relative;
+	right: 140px;
+}
+
+.stars_button_margin_p{
+	position: relative;
+	right: 12px;
+}
+
+.a{
+	color: #000;
+	font-size: 20pt;
+}
+
+.a:hover{
+	color: #a0a0a0;
+}
+
+.button_circle{
+	border-radius: 50%;
+	height: 100%;
+}
+
+.buttong_margin{
+	border-radius: 20px;
+	height: 100%;
+	position: relative;
+	left: 770px;
+}
+
+.buttong_margin_login{
+	border-radius: 20px;
+	height: 100%;
+	position: relative;
+	left: 705px;
+}
+
+.buttong_margin_vxod{
+	border-radius: 20px;
+	height: 100%;
+	position: relative;
+	left: 820px;
+}
+
+.button_circle_margin{
+	border-radius: 50%;
+	height: 100%;
+	position: relative;
+	left: 850px;
+}
+
+.text{
+	color: #a0a0a0;
+	font-size: 15pt;
+}
+
+.img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.img_login{
+	width: 370px;
+	height: 386px;
+	position: relative;
+	left: 100px;
+}
+
+.img_p{
+	width: 100%;
+	height: 100%;
+}
+
+.img_pr{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.img_pr_cars{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.img_pr_cars_hyundai{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.img_pr_teas{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.img_pr_teas_indian{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.outline{
+	background-color: #007dff;
+}
+
+.outline:hover{
+	background-color: transparent;
+	border-color: #007dff;
+	transition: all ease-in 0s;
+	color: #007dff;
+}
+
+.container_padding{
+	padding: 10px;
+}
+
+.container_margin{
+	margin: 20px;
+}
+
+.container_margin_d{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.d_img_border{
+	border: 2px solid #ffffff;
+	border-radius: 20px;
+}
+
+.button_padding{
+	padding: 5px;
+}
+
+.item_padding{
+	padding: 5px;
+}
+
+.row_margin{
+	margin-top: 10px;
+}
+
+.view{
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.view1{
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.view .mask,
+.view .content{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	border-radius: 20px;
+}
+
+.view1 .content1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	border-radius: 20px;
+}
+ 
+.mask1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	border-radius: 20px;
+}
+
+.view img{
+	display: block;
+	position: relative;
+}
+
+.view a.info{
+	display: inline-block;
+	position: relative;
+	padding: 10px 5px 10px 5px;
+	color: #ffffff;
+	font-size: 15pt;
+}
+
+.view h3{
+	font-size: 30pt;
+	position: relative;
+	color: #a0a0a0;
+	padding: 0px 20px 0px;
+	text-align: center;
+}
+
+.view1 img{
+	display: block;
+	position: relative;
+}
+
+.view1 a.info{
+	display: inline-block;
+	padding: 1px 0px 1px 0px;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	font-size: 30pt;
+}
+
+.view1 h3{
+	font-size: 15pt;
+	position: relative;
+	color: #a0a0a0;
+	padding: 5px 20px 0px 20px;
+	text-align: center;
+}
+
+.view-second img{
+	transition: all ease-in 1s;
+}
+
+.view-second1 img{
+	transition: all ease-in 1s;
+}
+
+.view-second .mask{
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	opacity: 0;
+	transform: translate(0px, -145px);
+	transition: all ease-in-out 1s;
+}
+
+.view-second1 .mask1{
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	opacity: 0;
+	transform: translate(0px, 145px);
+	transition: all ease-in-out 1s;
+}
+
+.view-second a.info{
+	background: transparent;
+	margin: 10px 0px 15px 0px;
+	transform: translate(0px, -300px);
+	transition: all ease-in-out 1s;
+}
+
+.view-second h3{
+	transform: translate(-400px, 400px);
+	transition: all ease-in-out 1s;
+}
+
+.view-second1 a.info{
+	background: transparent;
+	margin: 20px 0px 1px 0px;
+	transform: translate(0px, -200px);
+	transition: all ease-in-out 1s;
+}
+
+.view-second1 h3{
+	transform: translate(0px, 400px);
+	transition: all ease-in-out 1s;
+}
+
+.view-second:hover .mask{
+	opacity: 90%;
+	transform: translate(0px, 0px);
+}
+
+.view-second1:hover .mask1{
+	opacity: 90%;
+	transform: translate(0px, 0px);
+}
+
+.view-second:hover a.info{
+	transform: translate(0px, 0px);
+	transition-delay: 0.3s;
+}
+
+.view-second:hover h3{
+	transform: translate(0px, 0px);
+	transition-delay: 0.3s;
+}
+
+.view-second1:hover a.info{
+	transform: translate(0px, 0px);
+	transition-delay: 0.3s;
+}
+
+.view-second1:hover h3{
+	transform: translate(0px, 0px);
+	transition-delay: 0.3s;
+}
+
+@media screen and (max-device-width: 1190px) {
+	.button_circle_margin{
+		border-radius: 50%;
+		height: 100%;
+		position: relative;
+		left: 700px;
+	}
+
+	 .stars_hidden{
+		 display:none;
+	 }
+}
+
+@media screen and (max-device-width: 1196px){
+	.buttong_margin{
+		border-radius: 20px;
+		height: 100%;
+		position: relative;
+		left: 630px;
+	}
+
+	.img_pr_cars{
+		width: 100%;
+		height: 65%;
+		border-radius: 20px;
+	}
+}
+
+@media screen and (max-device-width: 1198px){
+	.img_pr_cars{
+		width: 100%;
+		height: 65%;
+		border-radius: 20px;
+	}
+
+	.buttong_margin_login{
+		border-radius: 20px;
+		height: 100%;
+		position: relative;
+		left: 550px;
+	}
+
+	.buttong_margin_vxod{
+		border-radius: 20px;
+		height: 100%;
+		position: relative;
+		left: 660px;
+	}
+
+}
+
+@media screen and (max-device-width: 986px) {
+	.view1 a.info{
+		display: inline-block;
+		padding: 1px 0px 1px 0px;
+		color: #ffffff;
+		text-align: center;
+		position: relative;
+		font-size: 20pt;
+	}
+
+	.view1 h3{
+		font-size: 10pt;
+		position: relative;
+		color: #a0a0a0;
+		padding: 5px 20px 0px 20px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-device-width: 988px) {
+	.button_circle_margin{
+		border-radius: 50%;
+		height: 100%;
+		position: relative;
+		left: 500px;
+	}
+}
+
+@media screen and (max-device-width: 989px) {
+	.img_pr_cars{
+		width: 100%;
+		height: 36%;
+		border-radius: 20px;
+	}
+
+	.img_pr_cars_hyundai{
+		width: 100%;
+		height: 75%;
+		border-radius: 20px;
+	}
+
+	.img_pr_teas_indian{
+		width: 100%;
+		height: 75%;
+		border-radius: 20px;
+	}
+
+	.buttong_margin_login{
+		border-radius: 20px;
+		height: 100%;
+		position: relative;
+		left: 360px;
+	}
+}
+
+@media screen and (max-device-width: 991px){
+	.buttong_margin{
+		border-radius: 20px;
+		height: 100%;
+		position: relative;
+		left: 430px;
+	}
+
+	.buttong_margin_vxod{
+		border-radius: 20px;
+		height: 100%;
+		position: relative;
+		left: 460px;
+	}
+}
